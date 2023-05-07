@@ -1,3 +1,24 @@
 .navbar-image {
   width: 75px;
 }
+
+.container {
+  height: 50px !important;
+}
+@media (max-width: 850px) {
+  .container {
+    height: auto !important;
+  }
+}
+.button-image {
+  width: 45px;
+}
+
+.btn-1:hover {
+  background-color: red;
+  transition: 2s;
+}
+
+.toggler1 {
+  height: 55px;
+}
