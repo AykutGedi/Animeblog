@@ -2,14 +2,14 @@
   width: 75px;
 }
 
-.container {
+/* .container {
   height: 50px !important;
-}
-@media (max-width: 850px) {
+} */
+/* @media (max-width: 850px) {
   .container {
     height: auto !important;
   }
-}
+} */
 .button-image {
   width: 45px;
 }
@@ -21,4 +21,41 @@
 
 .toggler1 {
   height: 55px;
+}
+
+.btn-2 {
+  width: 45px;
+  transition: ease-in-out 0.7s;
+}
+
+.btn-2:hover {
+  transform: scale(1.2);
+  transition: 0.9s;
+}
+
+.gradient-text {
+  background: linear-gradient(to right, yellow, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: red;
+}
+
+/* h1 {
+  line-height: 1.5 !important;
+} */
+
+.bg-img1 {
+  min-height: 400px !important;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 25vh;
+  object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  .card-img-top {
+    height: 32vh;
+  }
 }
