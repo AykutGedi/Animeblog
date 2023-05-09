@@ -76,3 +76,14 @@
   transform: scale(1.1);
   transition: 0.8s linear;
 }
+
+footer img {
+  width: 55px;
+  gap: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  transition: 0.6s ease-in-out;
+}
+footer img:hover {
+  scale: 1.2;
+}
