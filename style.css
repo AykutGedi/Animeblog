@@ -58,4 +58,21 @@
   .card-img-top {
     height: 32vh;
   }
+  #gps {
+    height: 100%;
+  }
+}
+/* .card {
+  overflow: hidden;
+} */
+
+.card img {
+  transition: 0.8s ease-in-out;
+}
+.card-1 {
+  overflow: hidden;
+}
+.card img:hover {
+  transform: scale(1.1);
+  transition: 0.8s linear;
 }
